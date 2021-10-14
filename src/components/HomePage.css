@@ -1,0 +1,34 @@
+.titleArea {
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+}
+.favicon {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    height: 155px;
+}
+.heartSamp{
+    display: flex;
+    justify-content: center;
+    color: rgb(68, 155, 122);
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.heartSamp1 {
+    text-transform: uppercase;
+}
+
+.phoneArea{
+    padding-top: 80px;
+}
+.phoneArea .phone-img{
+    height: 650px; 
+    padding-left: 38%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
