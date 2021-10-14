@@ -1,13 +1,17 @@
 import React from 'react'
 import './SecondPage.css'
 
-const ThirdPage = () => {
+const ThirdPage = (props) => {
     return (
-        <section>
-            <div className='container'>
-                <div className='titleContainer'></div>
-            </div>
-        </section>
+        <>
+            <div className='letterContainer'>
+                        <h1 className='letterHeader'>{props.letterHeader}</h1>
+                        <div className='wrapper'>
+                            <img src={props.imageUrl} alt='' className='imgP'/>
+                            <p className='pTag'>{props.body}</p>
+                        </div>
+             </div>
+        </>
     )
 }
 
